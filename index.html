@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phuc Le - Webinar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css"
+      integrity="sha512-V5fKCVKOFy36w8zJmLzPH5R6zU6KvuHOvxfMRczx2ZeqTjKRGSBO9yiZjCKEJS3n6EmENwrH/xvSwXqxje+VVA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/night.min.css"
+      integrity="sha512-/OahNoquApSf+ZODsGbrJpUPv3blMbpeXJ0hYxTFF3WybIe54+BJ9n+6W0QwrBp4gVSjes55GTZY8AQt9mBmiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://www.figogroup.vn/public/images/favicon.gif"
+      type="image/gif"
+    />
+  </head>
+  <body>
+    <style>
+      /* GLOBAL */
+      @font-face {
+        font-family: iCiel;
+        src: url(assets/iCielBCCubano-Normal.otf);
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: iCiel, sans-serif !important;
+      }
+      .text-primary {
+        color: #f673a9;
+      }
+      .text-secondary {
+        color: #ffd966;
+      }
+      .reveal {
+        background-image: url(assets/background.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .logo {
+        position: fixed;
+        left: 50px;
+        top: 75px;
+        min-width: 50px;
+        min-height: 50px;
+        width: 10vw;
+        height: 10vw;
+        z-index: 10;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .scrollable {
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        bottom: 0px;
+      }
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      body {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+      /* SECTION 2 */
+      #section-2 > div {
+        height: 100%;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .avatar img {
+        max-width: 300px;
+      }
+      .profile li {
+        font-size: 60%;
+      }
+      /* SECTION 3 */
+
+      /* The actual timeline (the vertical ruler) */
+      .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* The actual timeline (the vertical ruler) */
+      .timeline::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+      }
+
+      /* Container around content */
+      .container {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+      }
+
+      /* The circles on the timeline */
+      .container::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid #ff9f55;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+
+      /* Place the container to the left */
+      .left {
+        left: 0;
+      }
+
+      /* Place the container to the right */
+      .right {
+        left: 50%;
+      }
+
+      /* Fix the circle for containers on the right side */
+      .right::after {
+        left: -16px;
+      }
+
+      /* The actual content */
+      .content {
+        padding: 20px 30px;
+        background-color: #f673a9;
+        position: relative;
+        border-radius: 6px;
+      }
+
+      /* Media queries - Responsive timeline on screens less than 600px wide */
+      @media screen and (max-width: 600px) {
+        /* Place the timelime to the left */
+        .timeline::after {
+          left: 31px;
+        }
+
+        /* Full-width containers */
+        .container {
+          width: 100%;
+          padding-left: 70px;
+          padding-right: 25px;
+        }
+
+        /* Make sure that all arrows are pointing leftwards */
+        .container::before {
+          left: 60px;
+          border: medium solid white;
+          border-width: 10px 10px 10px 0;
+          border-color: transparent white transparent transparent;
+        }
+
+        /* Make sure all circles are at the same spot */
+        .left::after,
+        .right::after {
+          left: 15px;
+        }
+
+        /* Make all right containers behave like the left ones */
+        .right {
+          left: 0%;
+        }
+      }
+    </style>
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="assets/logo.png" alt="" />
+    </div>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3 class="text-primary">BÓC "STEM"" NGÀNH TECHNOLOGY</h3>
+          <h5 style="color: #ffd966">
+            Event #3: MUÔN HÌNH NGÀNH LẬP TRÌNH WEB
+          </h5>
+          <h6>Speaker: Lê Hồng Phúc</h6>
+        </section>
+        <section id="section-2" class="scrollable">
+          <div>
+            <div class="avatar">
+              <img src="assets/ashark.png" alt="" />
+            </div>
+            <div class="profile">
+              <h6 style="color: #ffd966">Lê Hồng Phúc</h6>
+              <ul>
+                <li>Fullstack Developer at Dirox</li>
+                <li>Founder Kmin Academy</li>
+                <li>Teacher at Kmin Academy</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="section-3">
+          <div class="timeline">
+            <div class="container">
+              <div class="content">
+                <p>Ngành lập trình</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <p>Ngành lập trình web</p>
+              </div>
+            </div>
+            <div class="container">
+              <div class="content">
+                <p>Kỹ năng cần biết</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <p>Trãi nghiệm cá nhân</p>
+              </div>
+            </div>
+            <div class="container">
+              <div class="content">
+                <p>Let's Try</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <p>Q&A</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- VERTICAL SIDE -->
+        <section id="section-4">
+          <section id="section-4-1">
+            <p class="text-secondary">Ngành lập trình</p>
+          </section>
+          <section id="section-4-2">
+            <div>
+              <ul data-id="title">
+                <li>Lập trình/Lập trình viên?</li>
+                <li>Hướng phát triển nghề nghiệp</li>
+                <li>Công việc hằng ngày</li>
+              </ul>
+            </div>
+          </section>
+          <section id="section-4-3">
+            <ul data-id="title">
+              <li class="text-secondary">Lập trình/Lập trình viên?</li>
+            </ul>
+            <img src="assets/developer.jpg" alt="" />
+          </section>
+          <section id="section-4-4">
+            <ul data-id="title">
+              <li class="text-secondary">Hướng phát triển nghề nghiệp</li>
+            </ul>
+            <img style="width: 60%" src="assets/careers_large.png" alt="" />
+          </section>
+          <section id="section-4-5">
+            <ul data-id="title">
+              <li class="text-secondary">Hướng phát triển nghề nghiệp</li>
+            </ul>
+            <img src="assets/careers_medium.jpg" alt="" />
+          </section>
+          <section id="section-4-6">
+            <ul data-id="title">
+              <li class="text-secondary">Hướng phát triển nghề nghiệp</li>
+            </ul>
+            <img src="assets/careers_small.png" alt="" />
+          </section>
+          <section id="section-4-7">
+            <ul data-id="title">
+              <li class="text-secondary">Công việc hằng ngày</li>
+            </ul>
+            <img src="assets/daylife.jpg" alt="" />
+          </section>
+          <section id="section-4-8">
+            <ul data-id="title">
+              <li class="text-secondary">Công việc hằng ngày</li>
+            </ul>
+            <div class="timeline">
+              <div class="container">
+                <div class="content">
+                  <p>Coffee?</p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <p>Coding</p>
+                </div>
+              </div>
+              <div class="container">
+                <div class="content">
+                  <p>Talking to clients</p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <p>Meetings</p>
+                </div>
+              </div>
+              <div class="container">
+                <div class="content">
+                  <p>Management</p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <p>Emailing</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section id="section-5">
+          <div>
+            <p>Ngành lập trình web</p>
+          </div>
+        </section>
+        <section id="section-6">
+          <div>
+            <p>Kỹ năng cần biết</p>
+          </div>
+        </section>
+        <section id="section-7">
+          <div>
+            <p>Trãi nghiệm cá nhân</p>
+          </div>
+        </section>
+        <section id="section-8">
+          <div>
+            <p>Let's Try</p>
+          </div>
+        </section>
+        <section id="section-9">
+          <div>
+            <p>Q&A</p>
+          </div>
+        </section>
+        <section id="section-10">
+          <div>
+            <p>Thank you!</p>
+            <p>Gift:</p>
+          </div>
+        </section>
+        <section id="section-10">
+          <div>
+            <p>Feedback form!</p>
+            <img src="assets/feedback.png" alt="" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"
+      integrity="sha512-QYXU3Cojl94ZRiZRjUZpyg1odj9mKTON9MsTMzGNx/L3JqvMA3BQNraZwsZ83UeisO+QMVfFa83SyuYYJzR9hw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      Reveal.initialize();
+    </script>
+  </body>
+</html>
