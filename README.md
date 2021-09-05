@@ -11,7 +11,11 @@
 - **IDE:** IDE (Integrated Development Environment) là môi trường tích hợp dùng để viết code để phát triển ứng dụng. Ngoài ra IDE tích hợp các tool hỗ trợ khác như trình biên dịch (Compiler), trình thông dịch (Interpreter), kiểm tra lỗi (Debugger), định dạng hoặc highlight code, tổ chức thư mục code, tìm kiếm code…
 - **Text Editor:** Text Editor không tích hợp sẵn trình biên dịch hoặc trình thông dịch bên trong nó, nghĩa là muốn chạy được ứng dụng, bạn phải dùng riêng compiler bên ngoài. Những Text Editor này thường dùng cho phát triển ứng dụng web, tiêu biểu như Sublime text, Atom, Bracket, Notepad++, VScode…v.v.
 - **Deploy/ deployment:** Được hiểu là triển khai, sắp đặt một thứ gì đó. Trong lĩnh vực phần mềm, deploy được hiểu là triển khai tiến hành sử dụng phần mềm hoàn thiện trong môi trường ứng dụng thực tế.
-
+- **Terminal:** là một chương trình phần mềm được cài đặt sẵn trên hệ điều hành Linux cho phép người dùng có thể giao tiếp với máy tính thông qua việc chạy các câu lệnh. Chính vì vậy Terminal còn được gọi là một chương trình giao diện cửa sổ dòng lệnh (command line interface).
+- **Command line:** Là giao diện được thiết kế để người sử dụng có thể ra mệnh lệnh cho máy thực hiện chỉ bằng bàn phím thông qua các câu lệnh ở dạng dấu nhắc lệnh (prompts).
+- **Linux:** Là một hệ điều hành, được phát triển dựa vào hệ điều hành Unix và được phát hành miễn phí.
+- **Platform:** Platform là thuật ngữ lập trình chỉ nền tảng kết nối tạo ra môi trường mà trong đó các phần mềm được thực thi. (Vd: Window, iOS, App Store, ...)
+- **Framework:** Framework là các đoạn code đã được viết sẵn, cấu thành nên một bộ khung và các thư viện lập trình được đóng gói. Chúng cung cấp các tính năng có sẵn như mô hình, API và các yếu tố khác để tối giản cho việc phát triển các ứng dụng web phong phú, năng động. Các framework giống như là chúng ta có khung nhà được làm sẵn nền móng cơ bản, bạn chỉ cần vào xây dựng và nội thất theo ý mình.
 ---
 ### Mục lục
 1. Ngành lập trình
