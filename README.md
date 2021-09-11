@@ -1,6 +1,11 @@
 # MUÔN HÌNH NGÀNH LẬP TRÌNH WEB
 ## Speaker: Lê Hồng Phúc
 ---
+Link Slide: https://mag002.github.io/web-programming-overview-webninar/
+
+Link Source: https://github.com/mag002/web-programming-overview-webninar#readme
+
+---
 ### Thuật ngữ
  - **API**: viết tắt của cụm từ “Application Programming Interface” (Giao diện lập trình ứng dụng): phương thức, giao thức kết nối với các thư viện và ứng dụng khác.
  Ngoài ra, API cung cấp khả năng truy xuất đến một tập các hàm hay dùng, từ đó có thể trao đổi dữ liệu giữa các ứng dụng.
