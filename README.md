@@ -43,29 +43,33 @@
 6. Q&A
 
 ### 1. Ngành lập trình
-- lap trinh vien la nguoi ta ra cac sasn pham, ngoi tu sang toi chieu voi man hinh xanh do
-- huong phat trien nghe nghiep, Intern, Fresher, Junior, Midddle, Senior => Tech lead => PM => CTO 
-- conng viec hang ngay:
-+ Ngoi truoc man hinh 8h?
-=> Tai sao khongo uong coffee r ngoi
-=> Coding: code
-=> Talking to clients: Anh muon web nhu the nao, em tinh lam nhu vay ne,
-=> Meetings: lam viec can co dong doi ne phai meeting de thao luan phuong an
-=> Management; quuan ly thoi gian, cong viec ca nhan, estimate, quan ly nhan vien
-=> Emailing: Mail confirm, bao cao voi client
+- Lập trình viên là người thiết kế, xây dựng, bảo trì, sửa lỗi và nâng cấp các phần mềm máy tính bằng các ngôn ngữ lập trình khác nhau.
+- Hướng phát triển nghề nghiệp
+- Công việc hằng ngày:
+   - Làm một ly cà phê trước khi bắt đầu chiến đấu
+   - Coding: Bắt đầu nhìn vào màn hình với vô số chữ xanh đỏ tím vàng và gõ
+   - Talking to clients: Nói chuyện với khách hàng, bàn bạc về mong muốn, nguyện vọng và cách đáp ứng của mình với khách hàng trên từng chức năng
+   - Meetings: Họp hành với đồng đội về các kế hoạch, vấn đề và hướng giải quyết
+   - Management: Quản lý, thống kê lại các công việc và thời gian đã dành ra cho các task
+   - Emailing: Mail thông báo, confirm với mọi người, khách hàng vào cuối ngày hoặc cuối tuần
 ### 2. Ngành lập trình web
-- La nganh tao ra cac trang web va ung dung web
-- Show san pham ra truoc, fe, be, devops dong vai tro gi r vao chi tiet
-- devops=> lam viec voi OS => demo lam viec voi terminal de cap nhat content file html
+- Là ngành tạo ra các trang web, các sản phẩm ứng dụng trên nền tảng web
+   - **Frontend:** Người tương tác và xây dựng nên giao diện, thứ đập vào mắt người dùng đầu tiên
+   - **Backend:** Người xây dựng nên hệ thống cơ sở dữ liệu hạ tầng và các chức năng logic phía sau
+   - **Devops:** Người xây dựng nên hệ thống tự động "Release" các chức năng sau khi Frontend và Backend tạo ra, theo dõi và quản lý các diễn biến của hệ thống trên Server
+- Minh họa việc thay đổi mã nguồn HTML, truy cập vào hệ thống server thông qua terminal, cách quản lý phiên bản
 ### 3. Mức lương
-- salary
+- Junior: 6.000.000VND -> 12.000.000VND
+- Middle: 12.000.000VND -> 20.000.000VND
+- Senior: 20.000.000VND -> 35.000.000VND
 ### 4. Let's Try
-- Try to change content in slider
-- Show how to change text=> change crush message
-- Code with codepen
-- Code with slider 
-### 5. Trải nghiệm cá nhân
+- Sử dụng Devtool (F12) để thử nghiệm thay đổi nội dung trên Slider
+- Sử dụng Devtool (F12) để thử nghiệm thay đổi nội dung tin nhắn của Crush
+- Codepen:  https://codepen.io/pen/
+- VSCode: https://code.visualstudio.com/download
+- Mã nguồn: https://github.com/mag002/web-programming-overview-webninar
 
+### 5. Trải nghiệm cá nhân
 ### 6. Q&A
 
 
